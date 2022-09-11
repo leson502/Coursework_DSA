@@ -34,3 +34,4 @@ build/
 /bin1/
 java/build/**
 *.jar
+/algs4-data/
