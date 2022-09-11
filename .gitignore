@@ -1,0 +1,36 @@
+# Default ignored files
+/shelf/
+/.idea/workspace.xml
+.mtj.tmp/
+
+*.war
+*.ear
+
+
+
+.classpath
+.project
+.settings/
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
+
+# Inclusions
+!lib/**
+
+# Compiled Files
+*.class
+bin/
+build/
+/bin1/
+java/build/**
+*.jar
