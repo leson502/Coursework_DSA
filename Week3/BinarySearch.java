@@ -1,6 +1,8 @@
-package Week3;
-
 import edu.princeton.cs.algs4.StdOut;
+
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
 
 public class BinarySearch {
     public static int binarySearch(int[] array, int number) {
@@ -17,7 +19,7 @@ public class BinarySearch {
         }
         return -1;
     }
-
+    
     public static void main(String[] args) {
         int[] array = {1, 4, 5, 6, 8, 12, 234, 235};
         StdOut.println(binarySearch(array, 234));
